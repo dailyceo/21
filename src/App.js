@@ -281,7 +281,7 @@ function App() {
                 color: "var(--primary)",
               }}
             >
-              Public Mint:  June 21, 12:00 UTC
+              MINTED OUT IN 10 MINS!
             </s.TextDescription>
             <s.SpacerLarge />
 
@@ -295,14 +295,7 @@ function App() {
                 color: "var(--primary)",
               }}
             >
-              {mintOpen
-                ? "MINT OPEN"
-                : new Date(elapsedSeconds * 1000).toLocaleString("en-GB", {
-                  hour: "numeric",
-                  minute: "numeric",
-                  second: "numeric",
-                  timeZone: "UTC",
-                })}
+              stay tuned
             </s.TextDescription>
 
 
